@@ -18,7 +18,7 @@ fn main() {
             min = guess;
             middle = (min + max) / 2;
         }
-        match guess_count{
+        match guess_count {
             0 => println!("The number was: {middle}"),
             1 => println!("1 guess remaining"),
             _ => println!("{guess_count} guesses remaining"),
